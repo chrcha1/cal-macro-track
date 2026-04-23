@@ -1,0 +1,110 @@
+{
+  "_schema": {
+    "keyed_by": "YYYY-MM-DD",
+    "each_day": { "entries": "food items", "workouts": "exercise sessions" }
+  },
+  "2026-04-23": {
+    "entries": [
+      {
+        "id": "e1", "time": "09:00",
+        "food": "Coffee with collagen",
+        "portion": "~1 scoop (12g collagen)",
+        "emoji": "☕", "cls": "dairy",
+        "image_url": "https://loremflickr.com/400/400/coffee,cream",
+        "macros": { "calories": 45, "protein_g": 11, "carbs_g": 0, "fat_g": 0 },
+        "confidence": "estimate",
+        "source_url": "https://www.vitalproteins.com/products/collagen-peptides",
+        "source_label": "Vital (ref)"
+      },
+      {
+        "id": "e2", "time": "09:05",
+        "food": "NURRI Strawberry Shake",
+        "portion": "1 can · 11 fl oz",
+        "emoji": "🍓", "cls": "berry",
+        "image_url": "https://loremflickr.com/400/400/strawberry,protein,shake",
+        "macros": { "calories": 150, "protein_g": 30, "carbs_g": 2, "fat_g": 2.5 },
+        "confidence": "labeled",
+        "source_url": "https://drinknurri.com/strawberry-30g-protein-milk-shake/",
+        "source_label": "NURRI"
+      },
+      {
+        "id": "e3", "time": "09:10",
+        "food": "BUILT Puff — Coconut",
+        "portion": "1 bar · 40g",
+        "emoji": "🥥", "cls": "coconut",
+        "image_url": "https://loremflickr.com/400/400/chocolate,coconut,bar",
+        "macros": { "calories": 140, "protein_g": 17, "carbs_g": 13, "fat_g": 3 },
+        "confidence": "labeled",
+        "source_url": "https://built.com/products/coconut-puffs-12ct",
+        "source_label": "BUILT"
+      },
+      {
+        "id": "e4", "time": "09:15",
+        "food": "TJ Chili Lime Chicken strip",
+        "portion": "1 strip · ~1 oz",
+        "emoji": "🍗", "cls": "meat",
+        "image_url": "https://loremflickr.com/400/400/grilled,chicken,strips",
+        "macros": { "calories": 47, "protein_g": 8, "carbs_g": 0.5, "fat_g": 1 },
+        "confidence": "estimate",
+        "source_url": "https://www.traderjoes.com/home/products/pdp/grilled-chili-lime-chicken-breast-083524",
+        "source_label": "TJ"
+      },
+      {
+        "id": "e5", "time": "11:30",
+        "food": "AQA Max Wild Berry",
+        "portion": "1 can · 16 fl oz",
+        "emoji": "💧", "cls": "dairy",
+        "image_url": "https://loremflickr.com/400/400/berry,sparkling,water,can",
+        "macros": { "calories": 5, "protein_g": 0, "carbs_g": 0, "fat_g": 0 },
+        "confidence": "labeled",
+        "source_url": "https://drinkaqa.com/products/wild-berry/",
+        "source_label": "AQA"
+      },
+      {
+        "id": "e6", "time": "13:00",
+        "food": "Chipotle chicken bowl",
+        "portion": "1 bowl · typical build",
+        "emoji": "🌯", "cls": "meat",
+        "image_url": "https://loremflickr.com/400/400/burrito,bowl,rice,beans",
+        "macros": { "calories": 820, "protein_g": 55, "carbs_g": 90, "fat_g": 25 },
+        "confidence": "estimate",
+        "source_url": "https://www.chipotle.com/nutrition-calculator",
+        "source_label": "Chipotle"
+      },
+      {
+        "id": "e7", "time": "14:00",
+        "food": "Red grapes",
+        "portion": "1.5 handfuls · ~225g",
+        "emoji": "🍇", "cls": "grapes",
+        "image_url": "https://loremflickr.com/400/400/red,grapes",
+        "macros": { "calories": 155, "protein_g": 1.6, "carbs_g": 41, "fat_g": 0.4 },
+        "confidence": "estimate",
+        "source_url": "https://fdc.nal.usda.gov/food-details/2344712/nutrients",
+        "source_label": "USDA"
+      },
+      {
+        "id": "e8", "time": "15:30",
+        "food": "AQA Max Wild Berry",
+        "portion": "1 can · 16 fl oz",
+        "emoji": "💧", "cls": "dairy",
+        "image_url": "https://loremflickr.com/400/400/berry,sparkling,water,can",
+        "macros": { "calories": 5, "protein_g": 0, "carbs_g": 0, "fat_g": 0 },
+        "confidence": "labeled",
+        "source_url": "https://drinkaqa.com/products/wild-berry/",
+        "source_label": "AQA"
+      },
+      {
+        "id": "e9", "time": "17:00",
+        "food": "Cherry Garcia scoop + small cone",
+        "portion": "1 scoop (~½ cup) + cone",
+        "emoji": "🍒", "cls": "berry",
+        "image_url": "https://loremflickr.com/400/400/cherry,ice,cream,cone",
+        "macros": { "calories": 220, "protein_g": 3, "carbs_g": 27, "fat_g": 10.5 },
+        "confidence": "estimate",
+        "source_url": "https://www.benjerry.com/flavors/cherry-garcia-ice-cream",
+        "source_label": "Ben & Jerry's"
+      }
+    ],
+    "workouts": []
+  }
+}

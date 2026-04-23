@@ -1,0 +1,7 @@
+.DS_Store
+*.log
+node_modules/
+# personal auth stuff (never commit)
+.env
+*.pat
+auth_token*

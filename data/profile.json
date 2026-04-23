@@ -1,0 +1,44 @@
+{
+  "bio": {
+    "height_in": 65.5,
+    "weight_lb": 157,
+    "body_fat_pct": 33,
+    "age": 22,
+    "sex": "F",
+    "last_updated": "2026-04-23"
+  },
+  "calculated": {
+    "formula": "Mifflin-St Jeor",
+    "bmr_kcal": 1481,
+    "tdee": {
+      "sedentary_x1.2": 1777,
+      "light_x1.375": 2036,
+      "moderate_x1.55": 2295,
+      "active_x1.725": 2555
+    },
+    "composition": {
+      "fat_mass_lb": 52,
+      "lean_mass_lb": 105
+    }
+  },
+  "goals": {
+    "calories_kcal": 1650,
+    "calorie_window_low": 1600,
+    "calorie_window_high": 1700,
+    "target_bf_pct_per_week": 1.0,
+    "realistic_bf_pct_per_week_at_current_deficit": 0.45,
+    "protein_zones": {
+      "low_under_g_per_lb": 0.6,
+      "decent_under_g_per_lb": 0.9,
+      "display_max_g_per_lb": 1.2
+    },
+    "carbs": "measure_only",
+    "fat": "measure_only",
+    "notes": "1600-1700 kcal at ~2040 TDEE (light) = ~0.4-0.5% BF/week loss. To accelerate: add cardio/steps rather than cut further."
+  },
+  "estimation_bias": {
+    "intake": "overestimate_slightly",
+    "burn": "underestimate",
+    "rationale": "Hedge both directions to stay safely inside deficit."
+  }
+}

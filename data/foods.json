@@ -1,0 +1,23 @@
+{
+  "description": "Personal food library — items you eat often. Populates the quick-add shelf on the dashboard.",
+  "items": [
+    {
+      "key": "red_grapes_2hand",
+      "name": "Red grapes (2 handfuls)",
+      "emoji": "🍇",
+      "image": null,
+      "default_portion": "~300g",
+      "macros": { "calories": 210, "protein_g": 2.2, "carbs_g": 55, "fat_g": 0.5 },
+      "times_logged": 1
+    },
+    {
+      "key": "built_puff_coconut",
+      "name": "BUILT Puff — Coconut",
+      "emoji": "🥥",
+      "image": null,
+      "default_portion": "1 bar (40g)",
+      "macros": { "calories": 140, "protein_g": 17, "carbs_g": 13, "fat_g": 3 },
+      "times_logged": 1
+    }
+  ]
+}
