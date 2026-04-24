@@ -3,7 +3,7 @@
     "keyed_by": "YYYY-MM-DD",
     "each_day": { "entries": "food items", "workouts": "exercise sessions" }
   },
-  "2026-04-24": {
+  "2026-04-23": {
     "entries": [
       {
         "id": "e1", "time": "09:00",
@@ -105,6 +105,10 @@
         "source_label": "Ben & Jerry's"
       }
     ],
+    "workouts": []
+  },
+  "2026-04-24": {
+    "entries": [],
     "workouts": []
   }
 }
