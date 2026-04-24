@@ -5,7 +5,7 @@
     "body_fat_pct": 33,
     "age": 22,
     "sex": "F",
-    "last_updated": "2026-04-23"
+    "last_updated": "2026-04-24"
   },
   "calculated": {
     "formula": "Mifflin-St Jeor",
