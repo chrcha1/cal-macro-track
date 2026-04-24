@@ -94,17 +94,21 @@ html, body { margin: 0; padding: 0; background: var(--paper); color: var(--ink);
 .card.dragging { opacity: 0.4; }
 .card .grip { color: var(--ink-muted); font-size: 15px; line-height: 1; letter-spacing: -2px; user-select: none; }
 
-.plate { width: 56px; height: 56px; border-radius: 50%; overflow: hidden; display: grid; place-items: center; font-size: 24px; background: #f2eadc; box-shadow: inset 0 1px 2px rgba(255,255,255,0.6), 0 3px 7px rgba(43,33,25,0.08); position: relative; }
+.plate { width: 60px; height: 60px; border-radius: 50%; overflow: hidden; display: grid; place-items: center; font-size: 30px; background: #f2eadc; box-shadow: inset 0 1px 2px rgba(255,255,255,0.6), 0 3px 8px rgba(43,33,25,0.1); position: relative; text-shadow: 0 1px 2px rgba(0,0,0,0.12); }
 .plate img { width: 100%; height: 100%; object-fit: cover; border-radius: 50%; }
-.plate .emoji-fallback { position: absolute; inset: 0; display: grid; place-items: center; font-size: 24px; }
-/* gradient fallbacks */
-.plate.grapes  { background: radial-gradient(circle at 30% 30%, #caaee2, #7d5bb0 60%, #4e2d87); }
-.plate.coconut { background: radial-gradient(circle at 30% 30%, #f2e2c8, #c4a478 55%, #8c6b3d); }
-.plate.meat    { background: radial-gradient(circle at 30% 30%, #e8a890, #c0614a 60%, #7a2e1d); }
-.plate.carb    { background: radial-gradient(circle at 30% 30%, #eed5a2, #c79a4f 60%, #8d6022); }
-.plate.veg     { background: radial-gradient(circle at 30% 30%, #c9df9f, #7ba35e 60%, #3e6628); }
-.plate.dairy   { background: radial-gradient(circle at 30% 30%, #dce6f5, #8dabd8 60%, #4d6a9e); }
-.plate.berry   { background: radial-gradient(circle at 30% 30%, #f3a9b3, #c64a6a 60%, #7e1f3c); }
+.plate .emoji-fallback { position: absolute; inset: 0; display: grid; place-items: center; font-size: 30px; }
+/* food-specific gradients — plate colors match food category */
+.plate.grapes      { background: radial-gradient(circle at 30% 30%, #caaee2, #7d5bb0 60%, #4e2d87); }
+.plate.coconut     { background: radial-gradient(circle at 30% 30%, #f5e6cc, #c9a876 55%, #8a6a3d); }
+.plate.meat        { background: radial-gradient(circle at 30% 30%, #e8a890, #c0614a 60%, #7a2e1d); }
+.plate.carb        { background: radial-gradient(circle at 30% 30%, #eed5a2, #c79a4f 60%, #8d6022); }
+.plate.veg         { background: radial-gradient(circle at 30% 30%, #c9df9f, #7ba35e 60%, #3e6628); }
+.plate.dairy       { background: radial-gradient(circle at 30% 30%, #dce6f5, #8dabd8 60%, #4d6a9e); }
+.plate.berry       { background: radial-gradient(circle at 30% 30%, #f3a9b3, #c64a6a 60%, #7e1f3c); }
+.plate.coffee      { background: radial-gradient(circle at 30% 30%, #d6b896, #8d5f3f 55%, #4a2e1c); }
+.plate.drink-berry { background: radial-gradient(circle at 30% 30%, #9cc3e8, #4a76b8 55%, #1f3d6e); }
+.plate.bowl        { background: radial-gradient(circle at 30% 30%, #d9b682, #a57c48 55%, #5c3f1e); }
+.plate.ice         { background: radial-gradient(circle at 30% 30%, #f4d2d9, #c08ea1 55%, #7e3d55); }
 
 .card .n { font-family: var(--disp); font-weight: 700; font-size: 15px; letter-spacing: -0.01em; }
 .card .m { color: var(--ink-soft); font-size: 12px; margin-top: 3px; display: flex; gap: 6px; flex-wrap: wrap; align-items: center; }
